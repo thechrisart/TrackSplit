@@ -1,0 +1,11 @@
+build/
+__pycache__/
+*.xcuserstate
+xcuserdata/
+dist/
+
+# Local reference checkouts, not part of TrackSplit
+rx3-old/
+rx3-toolkit/
+*.patch
+.DS_Store

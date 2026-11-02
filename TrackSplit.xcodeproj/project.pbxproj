@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B52F5BAA765182D681B711 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12A6DB66B2BEC798A2C83F /* Theme.swift */; };
+		4914792C82B4148CEBDC4B7E /* Engine in Resources */ = {isa = PBXBuildFile; fileRef = 400D231F78B3AF66314A167C /* Engine */; };
+		5583128D324FDD8F656EA439 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6F90385F2ECD207CA63B9 /* AppModel.swift */; };
+		67B67466AD49259D8B442178 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D7A1E6D08F4795288F47A /* Views.swift */; };
+		746BF70B8A70F2BAFC159721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD84F1CE9E85413C4ADA84D6 /* Assets.xcassets */; };
+		C3F62D116F06042CD019BBE0 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FBE07CBA77492FFC76A7C0 /* Engine.swift */; };
+		C6F29300EB9307FEF8CF3124 /* RekordboxExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEED50FACE6F2F78BB741E /* RekordboxExport.swift */; };
+		D9E50987116CD56C8B1947BF /* Drive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140C882453D6C414676630AB /* Drive.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03F6F90385F2ECD207CA63B9 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		140C882453D6C414676630AB /* Drive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drive.swift; sourceTree = "<group>"; };
+		1FFEED50FACE6F2F78BB741E /* RekordboxExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekordboxExport.swift; sourceTree = "<group>"; };
+		400D231F78B3AF66314A167C /* Engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Engine; path = TrackSplit/Engine; sourceTree = SOURCE_ROOT; };
+		4E6D7A1E6D08F4795288F47A /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		AB12A6DB66B2BEC798A2C83F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C2FBE07CBA77492FFC76A7C0 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		CD84F1CE9E85413C4ADA84D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4B9D4E0B0C2E60E85AF3B7 /* TrackSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7B4AE53DA856B03BCDA98138 /* TrackSplit */ = {
+			isa = PBXGroup;
+			children = (
+				03F6F90385F2ECD207CA63B9 /* AppModel.swift */,
+				CD84F1CE9E85413C4ADA84D6 /* Assets.xcassets */,
+				140C882453D6C414676630AB /* Drive.swift */,
+				400D231F78B3AF66314A167C /* Engine */,
+				C2FBE07CBA77492FFC76A7C0 /* Engine.swift */,
+				1FFEED50FACE6F2F78BB741E /* RekordboxExport.swift */,
+				AB12A6DB66B2BEC798A2C83F /* Theme.swift */,
+				4E6D7A1E6D08F4795288F47A /* Views.swift */,
+			);
+			path = TrackSplit;
+			sourceTree = "<group>";
+		};
+		C13A106D454E9CFD4591E3D8 = {
+			isa = PBXGroup;
+			children = (
+				7B4AE53DA856B03BCDA98138 /* TrackSplit */,
+				EC6524DE830359A779D61094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6524DE830359A779D61094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4B9D4E0B0C2E60E85AF3B7 /* TrackSplit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CA07A24469A12BE1653E054 /* TrackSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC048077E01F5B3A52A72BEA /* Build configuration list for PBXNativeTarget "TrackSplit" */;
+			buildPhases = (
+				4D563DE4CD63C23C5DDEDA1A /* Sources */,
+				4DE31096802654FC0AE4B8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackSplit;
+			packageProductDependencies = (
+			);
+			productName = TrackSplit;
+			productReference = FC4B9D4E0B0C2E60E85AF3B7 /* TrackSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A03DC4A4D7F7107E3B6D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8CA07A24469A12BE1653E054 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B44EE1BADBAE10EE55E80F45 /* Build configuration list for PBXProject "TrackSplit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C13A106D454E9CFD4591E3D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC6524DE830359A779D61094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CA07A24469A12BE1653E054 /* TrackSplit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE31096802654FC0AE4B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746BF70B8A70F2BAFC159721 /* Assets.xcassets in Resources */,
+				4914792C82B4148CEBDC4B7E /* Engine in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D563DE4CD63C23C5DDEDA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5583128D324FDD8F656EA439 /* AppModel.swift in Sources */,
+				D9E50987116CD56C8B1947BF /* Drive.swift in Sources */,
+				C3F62D116F06042CD019BBE0 /* Engine.swift in Sources */,
+				C6F29300EB9307FEF8CF3124 /* RekordboxExport.swift in Sources */,
+				05B52F5BAA765182D681B711 /* Theme.swift in Sources */,
+				67B67466AD49259D8B442178 /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0297EFE371A6DA0D87DCF2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackSplit;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Stems para Pioneer XDJ-RX3";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thechrisart.TrackSplit;
+				PRODUCT_NAME = TrackSplit;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C5E4182E37568395D09661D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		673EF210717C61899A2FA4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackSplit;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Stems para Pioneer XDJ-RX3";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thechrisart.TrackSplit;
+				PRODUCT_NAME = TrackSplit;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BED491F22DE68ACDCF42F4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC048077E01F5B3A52A72BEA /* Build configuration list for PBXNativeTarget "TrackSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0297EFE371A6DA0D87DCF2DC /* Debug */,
+				673EF210717C61899A2FA4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B44EE1BADBAE10EE55E80F45 /* Build configuration list for PBXProject "TrackSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED491F22DE68ACDCF42F4FB /* Debug */,
+				0C5E4182E37568395D09661D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A03DC4A4D7F7107E3B6D5E /* Project object */;
+}
